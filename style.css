@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#taskForm {
+    position: relative;
+    top: 20px; /* Ajustez la valeur selon votre préférence */
+}
+
+.task {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    max-width: fit-content;
+}
+
+.box {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh; 
+    width: 100%; 
+}
+
+.travail { background-color: red; }
+.maison { background-color: blue; }
+.divers { background-color: green; }
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    background: darkgoldenrod;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.deleteBtn:hover{
+    background-color: goldenrod;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.containerTask {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: flex-start;
+    align-items: center; 
+}

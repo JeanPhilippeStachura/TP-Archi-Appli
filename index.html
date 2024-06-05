@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste de Tâches Avancée</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Liste de Tâches</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Ajouter une nouvelle tâche" required>
+            <select id="categoryInput">
+                <option value="travail">Travail</option>
+                <option value="maison">Maison</option>
+                <option value="divers">Divers</option>
+            </select>
+            <button type="submit">Ajouter Tâche</button>
+        </form>
+    </div>
+    <div class="box">
+        <div id="tasksContainer"></div>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+        <script src="controller.js"></script>
+    </div>
+</body>
+</html>
